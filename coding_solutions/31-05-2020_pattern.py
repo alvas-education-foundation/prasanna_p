@@ -1,0 +1,5 @@
+rows = int(input("Enter the number of rows "))
+for num in range(rows):
+    for i in range(num):
+        print(num, end=" ")  
+    print(" ")
